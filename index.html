@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/reset.css" />
+    <link rel="stylesheet" href="src/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="texto">
+          <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+
+          <p>
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem
+            e entraremos em contato em menos de 24h.
+          </p>
+        </div>
+        <div class="form">
+          <form id="formulario" action="submit">
+            <input
+              class="input"
+              type="text"
+              id="name"
+              placeholder="nome de usuario"
+            />
+            <p class="erro-text op">campo obrigatorio</p>
+
+            <input class="input" type="email" id="email" placeholder="email" />
+            <p class="erro-text op">campo obrigatorio</p>
+
+            <input
+              class="input"
+              type="number"
+              id="numero"
+              placeholder="numero de telefone"
+            />
+            <p class="erro-text op">campo obrigatorio</p>
+
+            <textarea
+              name="area-de-texto"
+              class="input"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <p class="erro-text op">campo obrigatorio</p>
+
+            <p>*campo obrigatorio</p>
+            <button type="submit" id="btn">enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
