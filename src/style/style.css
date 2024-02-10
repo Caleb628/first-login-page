@@ -8,6 +8,7 @@
   align-items: center;
   gap: 40px;
   background-image: url(../img/bg-repeat.jpg);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .texto p,
 h1 {
